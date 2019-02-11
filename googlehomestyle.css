@@ -1,0 +1,74 @@
+/*
+search buttons background #f2f2f2  color 757575 cursor pointer fonnd sixe 13 px bold pargin 11px x 4px border radius 2px
+footer bacground #222 link color #5f6368 visited color #609 cursor pointer section line hight 40px
+searhc box shadow and shadow expands when hover search by voice give a message box when hoevring over*/
+
+
+.nav{
+    position:absolute
+    top:0;
+    padding:0;
+    overflow:hidden;
+    width:1550px;
+}
+
+.leftnav{
+    float:left;
+    padding:20px;
+
+}
+
+.rightnav{
+    float: right;
+    padding:20px;
+}
+
+
+a{
+  display: inline;
+  font-family: arial, sans serif;
+  font-size: 13px;
+  color:#000;
+  cursor: pointer;
+  text-decoration:none; 
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
+.about, .store, .gmail, .images, .gs, .btn{
+   margin-left:15px;
+}
+
+.btn{
+  color: #fff;
+  cursor: default;
+  border: 1px solid #4285f4;
+  text-decoration:none;
+  font-weight: bold;
+  background-color: #4387fd;
+  line-height:28px;
+  border-radius: 2px;
+}
+
+
+.logo{
+  position: absolute;
+  top:73px;
+  margin: 100px  550px;
+ }
+
+.search{
+  position:absolute;
+  top:373px;
+  margin-left:500px;
+  margin-right:500px;
+}
+
+.footnav{
+   position:absolute;
+   bottom:0;
+}
+
